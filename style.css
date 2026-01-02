@@ -37,7 +37,7 @@ body {
 .hero {
   position: relative;
   background: url("images/hero-bg.jpg") center/cover no-repeat;
-  height: 30vh; /*70vh;-> 30vh*/
+  height: 35vh; /*70vh;-> 35vh*/
   display: flex;
   align-items: center;
 }
@@ -107,7 +107,7 @@ body {
 
 /* SECTIONS */
 .section {
-  padding: 80px 20px;
+  padding: 45px 20px;
   text-align: center;
 }
 
