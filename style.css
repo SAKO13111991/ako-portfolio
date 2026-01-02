@@ -173,7 +173,7 @@ body {
 .section h2 {
   position: relative;
   display: inline-block;
-  padding-bottom: 6px;
+  padding-bottom: 8px;
   margin-bottom: 22px;
 }
 
@@ -181,7 +181,7 @@ body {
   content: "";
   position: absolute;
   left: 50%;
-  bottom: 1px;
+  bottom: 0px;
   transform: translateX(-50%);
   width: 100px;
   height: 4px;
