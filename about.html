@@ -1,41 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>About Me | Aung Kyaw Oo</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>About | Aung Kyaw Oo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 <body>
 
-<!-- Navigation Bar -->
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="skills.html">Skills</a>
-  <a href="projects.html">Projects</a>
-  <a href="cv.html">CV</a>
-  <a href="contact.html">Contact</a>
-</nav>
+<!-- NAVBAR (reuse from index.html) -->
+<div class="navbar">
+  <div class="nav-container">
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="cv/Aung_Kyaw_Oo_CV.pdf">CV</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
 
-<!-- About Section -->
-<h2>About Me</h2>
+<!-- ABOUT INTRO -->
+<section class="section">
+  <h2>About Me</h2>
+  <p class="center-text">
+    Hello! I'm <strong>Aung Kyaw Oo</strong>, an experienced IT Infrastructure and
+    Network Engineer based in Yangon, Myanmar.
+  </p>
+</section>
 
-<p>
-Hello! I'm <strong>Aung Kyaw Oo</strong>, an experienced IT Infrastructure and Cloud Engineer
-with over 10 years of experience in networking, Microsoft Azure, and automation solutions.
-</p>
+<!-- PROFESSIONAL BACKGROUND -->
+<section class="section light">
+  <div class="about-grid">
+    
+    <div class="about-image">
+      <img src="images/profile.jpg" alt="Aung Kyaw Oo">
+    </div>
 
-<p>
-I specialize in designing, implementing, and managing secure IT environments,
-including cloud infrastructure, VPN solutions, and digital workflows.
-</p>
+    <div class="about-text">
+      <h3>Professional Background</h3>
+      <p>
+        I specialize in designing, implementing, and managing robust IT environments,
+        from secure networks to cloud-based solutions.
+      </p>
 
-<h3>Professional Highlights</h3>
-<ul>
-  <li>10+ years of experience in IT Infrastructure & Networking</li>
-  <li>Hands-on experience with Microsoft Azure (VMs, VPN, Security)</li>
-  <li>Strong background in Cisco networking and firewall management</li>
-  <li>Experienced in Power Apps and Power Automate</li>
-</ul>
+      <ul>
+        <li>10+ years of IT infrastructure and network engineering experience</li>
+        <li>Certifications: CCNP, PCNSE, Microsoft Azure Administrator</li>
+        <li>Azure cloud labs & VPN deployments</li>
+        <li>Power Apps & Power Automate workflow development</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- KEY HIGHLIGHTS -->
+<section class="section">
+  <h2>Key Highlights</h2>
+
+  <div class="card-grid">
+    <div class="card highlight-card">
+      <i class="fa-brands fa-microsoft"></i>
+      <h4>Azure & Cloud Expertise</h4>
+      <p>VMs, VPNs, Security, and Azure Architecture</p>
+    </div>
+
+    <div class="card highlight-card">
+      <i class="fa-solid fa-network-wired"></i>
+      <h4>Networking & Security</h4>
+      <p>Cisco, Fortinet, Firewalls, VPNs</p>
+    </div>
+
+    <div class="card highlight-card">
+      <i class="fa-solid fa-gears"></i>
+      <h4>Automation Solutions</h4>
+      <p>Power Apps, Power Automate, Digital Workflows</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT CTA -->
+<section class="section light">
+  <a href="cv/Aung_Kyaw_Oo_CV.pdf" class="btn">
+    Download CV →
+  </a>
+
+  <div class="social-icons" style="margin-top:20px">
+    <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://wa.me/959XXXXXXXX" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="mailto:mr.aungkyawoo23@gmail.com">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2024 Aung Kyaw Oo. All rights reserved.
+</footer>
 
 </body>
 </html>
