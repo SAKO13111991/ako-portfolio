@@ -1,35 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aung Kyaw Oo | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
-<!-- Navigation Bar -->
+<!-- NAVBAR -->
 <nav class="navbar">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="skills.html">Skills</a>
-  <a href="projects.html">Projects</a>
-  <a href="cv.html">CV</a>
-  <a href="contact.html">Contact</a>
+  <div class="nav-container">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="cv.html">CV</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </nav>
 
-<!-- Hero Section -->
+<!-- HERO SECTION -->
 <section class="hero">
   <div class="hero-overlay"></div>
 
   <div class="hero-content">
-    <img src="profile.jpg" class="profile-img">
+    <img src="images/profile.jpg" class="profile-pic" alt="Aung Kyaw Oo">
 
-    <h1>Aung Kyaw Oo</h1>
-    <p>IT Infrastructure | Cloud | Automation</p>
+    <div class="hero-text">
+      <h1>Aung Kyaw Oo</h1>
+      <p class="subtitle">IT Infrastructure | Cloud | Automation</p>
 
-    <a class="btn" href="Aung_Kyaw_Oo_CV.pdf" download>
-      Download CV
-    </a>
+      <div class="hero-actions">
+        <a href="cv/AungKyawOo_CV.pdf" class="btn">Download CV</a>
 
-    <div class="social-icons">
-      <a href="https://linkedin.com" target="_blank">in</a>
-      <a href="https://github.com" target="_blank">gh</a>
-      <a href="mailto:mr.aungkyawoo23@gmail.com">@</a>
+        <div class="social-icons">
+          <a href="#" title="LinkedIn">in</a>
+          <a href="#" title="GitHub">GH</a>
+          <a href="mailto:mr.aungkyawoo23@gmail.com" title="Email">@</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- ABOUT -->
+<section class="section">
+  <h2>About Me</h2>
+  <p class="center-text">
+    Experienced IT Infrastructure and Cloud Specialist with 10+ years in
+    Networking, Azure, and Automation solutions.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section class="section light">
+  <h2>Skills</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>Cloud & Azure</h3>
+      <ul>
+        <li>Azure, VM, VPN, Security</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Networking</h3>
+      <ul>
+        <li>Cisco, Firewalls, VPNs</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Automation</h3>
+      <ul>
+        <li>Power Apps, Power Automate</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section">
+  <h2>Projects</h2>
+
+  <div class="card-grid">
+    <div class="project-card">
+      <img src="images/project1.jpg" alt="">
+      <h3>Secure Cloud Lab</h3>
+      <p>Azure Virtual Lab</p>
+    </div>
+
+    <div class="project-card">
+      <img src="images/project2.jpg" alt="">
+      <h3>Azure VPN Setup</h3>
+      <p>Outline VPN Server</p>
+    </div>
+
+    <div class="project-card">
+      <img src="images/project3.jpg" alt="">
+      <h3>Office Digital Systems</h3>
+      <p>Power Platform Solutions</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section light">
+  <h2>Get in Touch</h2>
+
+  <div class="contact-box">
+    <a href="mailto:mr.aungkyawoo23@gmail.com" class="btn">
+      mr.aungkyawoo23@gmail.com
+    </a>
+
+    <div class="social-icons">
+      <a href="#">in</a>
+      <a href="#">GH</a>
+      <a href="@">@</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2024 Aung Kyaw Oo. All rights reserved.
+</footer>
+
 </body>
+</html>
