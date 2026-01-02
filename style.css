@@ -169,6 +169,26 @@ body {
   margin-bottom: 15px;
 }
 
+/* SECTION TITLE DECORATION */
+.section h2 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 18px;
+  margin-bottom: 30px;
+}
+
+.section h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 4px;
+  background: linear-gradient(90deg, #2f5bea, #3c7be5);
+  border-radius: 4px;
+}
+
 /* ================= CONTACT ================= */
 .contact-box {
   display: flex;
