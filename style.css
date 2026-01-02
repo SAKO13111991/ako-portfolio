@@ -1,3 +1,4 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -10,10 +11,13 @@ body {
   color: #1a1a1a;
 }
 
-/* NAVBAR */
+/* ================= NAVBAR ================= */
 .navbar {
   background: linear-gradient(90deg, #2f5bea, #3c7be5);
-  padding: 15px 0;
+  padding: 14px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .nav-container {
@@ -33,11 +37,11 @@ body {
   border-bottom: 2px solid white;
 }
 
-/* HERO */
+/* ================= HERO ================= */
 .hero {
   position: relative;
-  background: url("images/hero-bg.jpg") center/cover no-repeat;
-  height: 35vh; /*70vh;-> 35vh*/
+  background: url("images/hero-bg.jpg") center top / cover no-repeat;
+  height: 35vh; /* compact hero */
   display: flex;
   align-items: center;
 }
@@ -52,8 +56,8 @@ body {
 .hero-content {
   position: relative;
   max-width: 1100px;
-  z-index: 2;
   margin: auto;
+  z-index: 2;
   display: flex;
   align-items: center;
   gap: 50px;
@@ -71,17 +75,17 @@ body {
 }
 
 .subtitle {
-  margin: 10px 0 20px;
+  margin: 8px 0 18px;
   font-size: 18px;
 }
 
 .hero-actions {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 18px;
 }
 
-/* BUTTON */
+/* ================= BUTTON ================= */
 .btn {
   background: #2f5bea;
   color: white;
@@ -89,9 +93,14 @@ body {
   border-radius: 8px;
   text-decoration: none;
   font-weight: 500;
+  transition: background 0.3s ease;
 }
 
-/* SOCIAL */
+.btn:hover {
+  background: #244ad6;
+}
+
+/* ================= SOCIAL ICONS ================= */
 .social-icons a {
   background: #2f5bea;
   color: white;
@@ -103,11 +112,16 @@ body {
   border-radius: 50%;
   text-decoration: none;
   font-size: 14px;
+  transition: transform 0.3s ease;
 }
 
-/* SECTIONS */
+.social-icons a:hover {
+  transform: translateY(-3px);
+}
+
+/* ================= SECTIONS ================= */
 .section {
-  padding: 45px 20px;
+  padding: 45px 20px; /* compact spacing */
   text-align: center;
 }
 
@@ -115,16 +129,21 @@ body {
   background: #f4f6fb;
 }
 
+.section h2 {
+  margin-bottom: 12px;
+}
+
+/* ================= TEXT ================= */
 .center-text {
   max-width: 700px;
   margin: auto;
   line-height: 1.6;
 }
 
-/* CARDS */
+/* ================= CARDS ================= */
 .card-grid {
   max-width: 1100px;
-  margin: 50px auto 0;
+  margin: 40px auto 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
@@ -135,7 +154,13 @@ body {
   background: white;
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover,
+.project-card:hover {
+  transform: translateY(-5px);
 }
 
 .project-card img {
@@ -144,7 +169,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* CONTACT */
+/* ================= CONTACT ================= */
 .contact-box {
   display: flex;
   flex-direction: column;
@@ -152,10 +177,36 @@ body {
   gap: 20px;
 }
 
-/* FOOTER */
+/* ================= FOOTER ================= */
 footer {
-  padding: 25px;
+  padding: 22px;
   text-align: center;
   background: #eef1f8;
   font-size: 14px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .hero {
+    height: 40vh;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .profile-pic {
+    width: 140px;
+  }
+
+  .nav-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
