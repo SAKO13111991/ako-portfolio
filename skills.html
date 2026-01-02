@@ -1,49 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
   <title>Skills | Aung Kyaw Oo</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- Navigation Bar -->
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="skills.html">Skills</a>
-  <a href="projects.html">Projects</a>
-  <a href="cv.html">CV</a>
-  <a href="contact.html">Contact</a>
+<!-- NAVBAR (same as index) -->
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a class="active" href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="cv.html">CV</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </nav>
 
-<!-- Skills Section -->
-<h2>Skills</h2>
+<!-- ================= SKILLS HEADER ================= -->
+<section class="section skills-hero">
+  <h2>Skills</h2>
+  <p class="center-text">
+    My technical expertise spans across cloud platforms, networking technologies,
+    and automation tools. Here are the key skill areas where I excel:
+  </p>
+</section>
 
-<p>
-My technical expertise spans across cloud platforms, networking technologies,
-and automation tools. Below are my key skill areas:
-</p>
+<!-- ================= SKILL BLOCKS ================= -->
+<section class="section light">
+  <div class="skill-block">
 
-<h3>Cloud & Azure</h3>
-<ul>
-  <li>Microsoft Azure administration</li>
-  <li>Virtual Machines, Azure VPN</li>
-  <li>Cloud security, backup, and disaster recovery</li>
-</ul>
+    <!-- Azure -->
+    <div class="skill-row">
+      <div class="skill-info">
+        <h3>☁ Azure & Cloud</h3>
+        <ul>
+          <li>Microsoft Azure administration</li>
+          <li>Cloud security, backup, and DR</li>
+          <li>Virtual Machines, Azure VPN</li>
+        </ul>
+        <a class="btn small" href="projects.html">View Cloud Projects →</a>
+      </div>
+      <div class="skill-image">
+        <img src="images/project-cloud.jpg" alt="Azure Cloud">
+      </div>
+    </div>
 
-<h3>Networking</h3>
-<ul>
-  <li>Cisco routing and switching</li>
-  <li>Firewall administration (Fortinet, Palo Alto)</li>
-  <li>VPN setup and management</li>
-</ul>
+    <!-- Networking -->
+    <div class="skill-row reverse">
+      <div class="skill-info">
+        <h3>🌐 Networking</h3>
+        <ul>
+          <li>Cisco routing and switching</li>
+          <li>Firewall administration (Fortinet, Palo Alto)</li>
+          <li>VPN setup and management</li>
+        </ul>
+        <a class="btn small" href="projects.html">View Network Projects →</a>
+      </div>
+      <div class="skill-image">
+        <img src="images/project-vpn.jpg" alt="Networking">
+      </div>
+    </div>
 
-<h3>Automation</h3>
-<ul>
-  <li>Power Apps and Power Automate</li>
-  <li>Workflow automation design</li>
-  <li>Office digital process improvement</li>
-</ul>
+    <!-- Automation -->
+    <div class="skill-row">
+      <div class="skill-info">
+        <h3>⚙ Automation</h3>
+        <ul>
+          <li>PowerApps & Power Automate</li>
+          <li>Workflow automation design</li>
+        </ul>
+        <a class="btn small" href="projects.html">View Automation Projects →</a>
+      </div>
+      <div class="skill-image">
+        <img src="images/project-office.jpg" alt="Automation">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section class="section">
+  <h2>Certifications</h2>
+  <p class="center-text">
+    I hold several industry certifications that validate my expertise in networking,
+    security, and cloud solutions.
+  </p>
+
+  <div class="card-grid">
+    <div class="card">Cisco Certified CCNP</div>
+    <div class="card">Cisco Certified CCNA</div>
+    <div class="card">Microsoft Solutions Architect</div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  © 2024 Aung Kyaw Oo. All rights reserved.
+</footer>
 
 </body>
 </html>
