@@ -1,50 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Contact | Aung Kyaw Oo</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Navigation Bar -->
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="skills.html">Skills</a>
-  <a href="projects.html">Projects</a>
-  <a href="cv.html">CV</a>
-  <a href="contact.html">Contact</a>
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="cv.html">CV</a>
+    <a href="contact.html" class="active">Contact</a>
+  </div>
 </nav>
 
-<!-- Contact Section -->
-<h2>Contact</h2>
+<!-- ================= CONTACT HERO ================= -->
+<section class="section light">
+  <h2>Contact</h2>
+  <p class="center-text">
+    Feel free to reach out to me via email or through the contact form.
+    I'm here to help and happy to connect!
+  </p>
+</section>
 
-<p>
-Feel free to reach out to me via email or phone.  
-I’m happy to connect and discuss opportunities or projects.
-</p>
+<!-- ================= CONTACT MAIN ================= -->
+<section class="section">
+  <h2>Contact Information</h2>
 
-<h3>Contact Information</h3>
-<ul>
-  <li><strong>Email:</strong> mr.aungkyawoo23@gmail.com</li>
-  <li><strong>Phone:</strong> +95 9 123 456 789</li>
-  <li><strong>Location:</strong> Yangon, Myanmar</li>
-</ul>
+  <div class="contact-grid">
 
-<h3>Send a Message</h3>
+    <!-- LEFT: PROFILE + INFO -->
+    <div class="contact-card">
+      <div class="contact-header">
+        <img src="images/profile.jpg" alt="Aung Kyaw Oo">
+        <div>
+          <h3>Aung Kyaw Oo</h3>
+          <p>IT Infrastructure | Cloud | Automation</p>
 
-<form>
-  <label>Your Name</label><br>
-  <input type="text" placeholder="Your Name"><br><br>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com" target="_blank">in</a>
+            <a href="https://wa.me/959123456789" target="_blank">wa</a>
+            <a href="mailto:mr.aungkyawoo23@gmail.com">✉</a>
+          </div>
+        </div>
+      </div>
 
-  <label>Your Email</label><br>
-  <input type="email" placeholder="Your Email"><br><br>
+      <ul class="contact-list">
+        <li>📧 mr.aungkyawoo23@gmail.com</li>
+        <li>📞 +95 9 123 456 789</li>
+        <li>📍 Yangon, Myanmar</li>
+      </ul>
+    </div>
 
-  <label>Message</label><br>
-  <textarea rows="5" placeholder="Your Message"></textarea><br><br>
+    <!-- RIGHT: CONTACT FORM -->
+    <div class="contact-card">
+      <h3>Send a Message</h3>
 
-  <button type="submit">Send Message</button>
-</form>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Subject">
+        <textarea rows="4" placeholder="Message"></textarea>
+
+        <button type="submit" class="btn">
+          Send Message →
+        </button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="section light">
+  <a href="cv/Aung_Kyaw_Oo_CV.pdf" class="btn" download>
+    ⬇ Download CV (PDF)
+  </a>
+
+  <div class="social-icons" style="margin-top:20px">
+    <a href="https://www.linkedin.com" target="_blank">in</a>
+    <a href="https://wa.me/959123456789" target="_blank">wa</a>
+    <a href="mailto:mr.aungkyawoo23@gmail.com">✉</a>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  © 2024 Aung Kyaw Oo. All rights reserved.
+</footer>
 
 </body>
 </html>
