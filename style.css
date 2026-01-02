@@ -41,7 +41,7 @@ body {
 .hero {
   position: relative;
   background: url("images/hero-bg.jpg") center top / cover no-repeat;
-  height: 35vh; /* compact hero */
+  height: 30vh; /* compact hero */
   display: flex;
   align-items: center;
 }
