@@ -255,8 +255,13 @@ footer {
 
 .about-text ul {
   margin-top: 15px;
-  padding-left: 20px;
+  padding-left: 22px;
   line-height: 1.7;
+  
+  text-align: left;        /* ✅ bullet ကို ဘယ်ဘက်ညီ */
+  max-width: 520px;        /* ✅ အလယ်မှာထိန်းထား */
+  margin-left: auto;      /* ✅ center container */
+  margin-right: auto;
 }
 
 /* ================= HIGHLIGHTS ================= */
