@@ -1,55 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Projects | Aung Kyaw Oo</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Navigation Bar -->
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="skills.html">Skills</a>
-  <a href="projects.html">Projects</a>
-  <a href="cv.html">CV</a>
-  <a href="contact.html">Contact</a>
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="cv.html">CV</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </nav>
 
-<!-- Projects Section -->
-<h2>Projects</h2>
-
-<p>
-Here are some of the projects I have worked on, showcasing my experience
-in Azure, networking, and automation solutions.
-</p>
-
-<!-- Project 1 -->
-<div class="project-card">
-  <h3>Secure Cloud Lab (Azure)</h3>
-  <p>
-    Built a personal secure cloud lab using Microsoft Azure, including
-    virtual networks, Windows/Linux VMs, and security configurations.
+<!-- ================= PROJECTS HEADER ================= -->
+<section class="section light">
+  <h2>Projects</h2>
+  <p class="center-text">
+    Here are some of the projects I have worked on, showcasing my expertise in
+    Azure, networking, and automation solutions.
   </p>
-</div>
+</section>
 
-<!-- Project 2 -->
-<div class="project-card">
-  <h3>Azure VPN Setup (Outline VPN)</h3>
-  <p>
-    Deployed and managed a secure Outline VPN server on Azure to provide
-    encrypted internet access and remote connectivity.
-  </p>
-</div>
+<!-- ================= MAIN PROJECTS ================= -->
+<section class="section">
+  <div class="card-grid">
 
-<!-- Project 3 -->
-<div class="project-card">
-  <h3>Office Digital Systems</h3>
-  <p>
-    Designed and implemented office digital systems using Power Apps and
-    Power Automate to streamline workflows and approvals.
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="images/project1.jpg" alt="Secure Cloud Lab">
+      <h3>Secure Cloud Lab <span>on Azure</span></h3>
+      <p>
+        Built a personal cloud lab using Azure for secure, scalable virtual
+        environments.
+      </p>
+      <a href="#" class="btn small">View Project →</a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="images/project2.jpg" alt="Outline VPN on Azure">
+      <h3>Outline VPN <span>on Azure</span></h3>
+      <p>
+        Deployed a secure VPN server on Azure for protected internet access.
+      </p>
+      <a href="#" class="btn small">View Project →</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="images/project3.jpg" alt="Office Digital Systems">
+      <h3>Office Digital Systems</h3>
+      <p>
+        Created automated workflows using Power Apps and Power Automate.
+      </p>
+      <a href="#" class="btn small">View Project →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= MORE PROJECTS ================= -->
+<section class="section light">
+  <h2>More Projects</h2>
+  <p class="center-text">
+    I hold several industry certifications that validate my expertise in
+    networking, security, and cloud solutions.
   </p>
-</div>
+
+  <div class="card-grid">
+
+    <div class="card">
+      <h4>Azure & Cloud Expertise</h4>
+      <p>
+        Built personal cloud labs using Azure for secure, scalable environments.
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>Networking & Security</h4>
+      <p>
+        Set up monitoring and alert systems for network performance.
+      </p>
+    </div>
+
+    <div class="card">
+      <h4>Office Digital Systems</h4>
+      <p>
+        Developed automated onboarding processes for new hires.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CATEGORY BUTTONS ================= -->
+<section class="section">
+  <div class="button-group">
+    <a class="btn">Azure & Cloud Expertise</a>
+    <a class="btn">Networking & Security</a>
+    <a class="btn">Automation Solutions</a>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  © 2024 Aung Kyaw Oo. All rights reserved.
+</footer>
 
 </body>
 </html>
