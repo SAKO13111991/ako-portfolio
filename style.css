@@ -37,7 +37,7 @@ body {
 .hero {
   position: relative;
   background: url("images/hero-bg.jpg") center/cover no-repeat;
-  height: 50vh; /*70vh;-> 50vh*/
+  height: 30vh; /*70vh;-> 30vh*/
   display: flex;
   align-items: center;
 }
