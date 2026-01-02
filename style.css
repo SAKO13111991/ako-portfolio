@@ -470,3 +470,74 @@ footer {
 }
 
 
+/* ================= CONTACT PAGE ================= */
+
+.contact-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+}
+
+/* Card */
+.contact-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+/* Header */
+.contact-header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-header img {
+  width: 90px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+/* Contact list */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  line-height: 1.8;
+  margin-top: 10px;
+}
+
+/* Form */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #2f5bea;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
