@@ -79,6 +79,15 @@ body {
   font-size: 18px;
 }
 
+/* NEW: HERO TAGLINE */
+.hero-tagline {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #dbeafe;
+  line-height: 1.6;
+  max-width: 420px;
+}
+
 .hero-actions {
   display: flex;
   align-items: center;
