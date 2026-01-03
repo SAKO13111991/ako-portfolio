@@ -61,23 +61,163 @@
     </ul>
 
     <!-- Experience -->
-    <h4>Experience</h4>
 
-    <div class="experience-box">
-      <strong>Senior IT Infrastructure Engineer</strong>
-      <p>
-        Lead and manage cloud projects on Azure including VMs, VPNs,
-        and security configurations.
-      </p>
-    </div>
+<h4>Experience</h4>
 
-    <div class="experience-box">
-      <strong>ABC Tech Services – Yangon</strong>
-      <p>
-        Configured and maintained Cisco routers, switches, firewalls,
-        and enterprise network infrastructure.
-      </p>
+<!-- JICA -->
+<div class="exp-item">
+  <div class="exp-summary">
+    <div class="exp-year">Dec 2024 – Present</div>
+    <div class="exp-role">Administrative Assistant (IT)</div>
+    <div class="exp-company">
+      JICA Myanmar (Japan International Cooperation Agency)
     </div>
+    <a href="javascript:void(0)" class="exp-toggle"
+       onclick="toggleExp(this)">View More →</a>
+  </div>
+
+  <div class="exp-details">
+    <ul>
+      <li>Support IT infrastructure operations and end-user IT services</li>
+      <li>Coordinate with JICA HQ and vendors on system and network improvements</li>
+      <li>Manage internal digital systems, cloud services, and automation tools</li>
+      <li>Ensure compliance with IT policies and security standards</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Win Brother -->
+<div class="exp-item">
+  <div class="exp-summary">
+    <div class="exp-year">Nov 2023 – Nov 2024</div>
+    <div class="exp-role">IT Infrastructure Manager</div>
+    <div class="exp-company">
+      Win Brother Group of Company Limited
+    </div>
+    <a href="javascript:void(0)" class="exp-toggle"
+       onclick="toggleExp(this)">View More →</a>
+  </div>
+
+  <div class="exp-details">
+    <ul>
+      <li>Managed enterprise IT infrastructure including servers and networks</li>
+      <li>Implemented system monitoring, backup, and disaster recovery plans</li>
+      <li>Oversaw firewall, VPN, and security configurations</li>
+      <li>Led IT operations team and coordinated with external vendors</li>
+    </ul>
+  </div>
+</div>
+
+<!-- KDDI -->
+<div class="exp-item">
+  <div class="exp-summary">
+    <div class="exp-year">Jun 2022 – Nov 2023</div>
+    <div class="exp-role">System Engineer</div>
+    <div class="exp-company">
+      KDDI Myanmar Company Limited
+    </div>
+    <a href="javascript:void(0)" class="exp-toggle"
+       onclick="toggleExp(this)">View More →</a>
+  </div>
+
+  <div class="exp-details">
+    <ul>
+      <li>Supported enterprise network and system infrastructure</li>
+      <li>Configured routers, switches, firewalls, and VPN solutions</li>
+      <li>Handled troubleshooting, monitoring, and system optimization</li>
+      <li>Provided technical support to corporate clients</li>
+    </ul>
+  </div>
+</div>
+
+<!-- BAT – Associate Service Manager -->
+<div class="exp-item">
+  <div class="exp-summary">
+    <div class="exp-year">Dec 2020 – Apr 2022</div>
+    <div class="exp-role">Associate Service Manager (IT)</div>
+    <div class="exp-company">
+      British American Tobacco Myanmar
+    </div>
+    <a href="javascript:void(0)" class="exp-toggle"
+       onclick="toggleExp(this)">View More →</a>
+  </div>
+
+  <div class="exp-details">
+    <ul>
+      <li>Managed IT service delivery and incident handling</li>
+      <li>Coordinated with regional IT teams and service providers</li>
+      <li>Ensured system availability and user satisfaction</li>
+      <li>Supported infrastructure upgrades and rollouts</li>
+    </ul>
+  </div>
+</div>
+
+<!-- BAT – Senior IT Executive -->
+<div class="exp-item">
+  <div class="exp-summary">
+    <div class="exp-year">Dec 2017 – Nov 2020</div>
+    <div class="exp-role">Senior IT Executive</div>
+    <div class="exp-company">
+      British American Tobacco Myanmar
+    </div>
+    <a href="javascript:void(0)" class="exp-toggle"
+       onclick="toggleExp(this)">View More →</a>
+  </div>
+
+  <div class="exp-details">
+    <ul>
+      <li>Provided enterprise IT support across multiple departments</li>
+      <li>Maintained network infrastructure and end-user systems</li>
+      <li>Supported security policies and IT governance</li>
+      <li>Worked closely with business users and management</li>
+    </ul>
+  </div>
+</div>
+
+<!-- BAT – IT Executive -->
+<div class="exp-item">
+  <div class="exp-summary">
+    <div class="exp-year">Oct 2015 – Nov 2017</div>
+    <div class="exp-role">IT Executive</div>
+    <div class="exp-company">
+      British American Tobacco Myanmar
+    </div>
+    <a href="javascript:void(0)" class="exp-toggle"
+       onclick="toggleExp(this)">View More →</a>
+  </div>
+
+  <div class="exp-details">
+    <ul>
+      <li>Handled day-to-day IT operations and technical support</li>
+      <li>Installed and maintained network and desktop systems</li>
+      <li>Supported business applications and users</li>
+    </ul>
+  </div>
+</div>
+
+<!-- MRS -->
+<div class="exp-item">
+  <div class="exp-summary">
+    <div class="exp-year">Jan 2014 – Sep 2015</div>
+    <div class="exp-role">Network Engineer</div>
+    <div class="exp-company">
+      Myanmar Reliable Source (Group of KMD)
+    </div>
+    <a href="javascript:void(0)" class="exp-toggle"
+       onclick="toggleExp(this)">View More →</a>
+  </div>
+
+  <div class="exp-details">
+    <ul>
+      <li>Designed and implemented network infrastructure</li>
+      <li>Configured Cisco routers and switches</li>
+      <li>Performed network troubleshooting and optimization</li>
+      <li>Supported client network projects</li>
+    </ul>
+  </div>
+</div>
+
+
 
   </div>
 
@@ -99,3 +239,18 @@
 </script>
 </body>
 </html>
+
+
+<script>
+  function toggleExp(el) {
+    const details = el.parentElement.nextElementSibling;
+
+    if (details.style.display === "block") {
+      details.style.display = "none";
+      el.textContent = "View More →";
+    } else {
+      details.style.display = "block";
+      el.textContent = "View Less ←";
+    }
+  }
+</script>
