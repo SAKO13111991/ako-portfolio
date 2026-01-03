@@ -534,10 +534,12 @@ footer {
   position: relative; /* anchor for absolute */
 }
 
-/* More link – bottom aligned */
+/* More link – bottom right */
 .more-link {
-  display: inline-block;
-  margin-top: 14px;          /* စာသားနဲ့ အကွာ */
+  position: absolute;
+  right: 18px;
+  bottom: 16px;
+
   font-size: 14px;
   font-weight: 600;
   color: #2f5bea;
@@ -547,6 +549,7 @@ footer {
 .more-link:hover {
   text-decoration: underline;
 }
+
 
 
 /* ================= CV PAGE ================= */
