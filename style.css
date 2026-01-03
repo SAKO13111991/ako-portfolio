@@ -30,12 +30,22 @@ body {
 .navbar a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;          /* ပိုထင်း */
+  font-size: 16px;           /* ← ဒီတစ်ကြောင်း အရေးကြီး */
+  padding: 8px 14px;         /* click area ကြီး */
+  border-radius: 6px;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.navbar a:hover {
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .navbar a.active {
-  border-bottom: 2px solid white;
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: 700;
 }
+
 
 /* ================= HERO ================= */
 .hero {
