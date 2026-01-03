@@ -31,8 +31,8 @@ body {
   color: white;
   text-decoration: none;
   font-weight: 600;          /* ပိုထင်း */
-  font-size: 16px;           /* ← ဒီတစ်ကြောင်း အရေးကြီး */
-  padding: 8px 14px;         /* click area ကြီး */
+  font-size: 20px;           /* ← ဒီတစ်ကြောင်း အရေးကြီး */
+  padding: 10px 18px;         /* click area ကြီး */
   border-radius: 6px;
   transition: background 0.25s ease, color 0.25s ease;
 }
@@ -241,14 +241,21 @@ footer {
 
 /* ================= RESPONSIVE ================= */
 @media (max-width: 768px) {
+
+  .navbar a {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 14px 18px;
+  }
+
   .hero {
-    height:auto;
+    height: auto;
     padding: 40px 0;
   }
 
   .hero-content {
-    /*flex-direction: column;*/
-    /*text-align: center;*/
+    flex-direction: column;
+    text-align: center;
     gap: 20px;
   }
 
@@ -256,27 +263,22 @@ footer {
     font-size: 30px;
   }
 
-  .subtitle{
-    font-size: 30x;
+  .subtitle {
+    font-size: 16px;
   }
-  /*
+
   .profile-pic {
     width: 140px;
   }
 
-  .nav-container {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-*/
-  /* NEW: Hero tagline mobile fix */
   .hero-tagline {
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
+    margin-left: auto;
+    margin-right: auto;
     font-size: 14px;
     max-width: 100%;
   }
 }
+
 
 /* ================= ABOUT PAGE ================= */
 
