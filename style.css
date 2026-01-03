@@ -84,7 +84,8 @@ body {
   margin-top: 6px;
   margin-bottom: 16px;
   font-size: 15px;
-  color: #dbeafe;
+  /*color: #dbeafe; */
+  color: #e5edff;
   line-height: 1.5;
   max-width: 520px;
 }
