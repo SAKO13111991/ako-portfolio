@@ -82,8 +82,8 @@ body {
 /* NEW: HERO TAGLINE */
 .hero-tagline {
   margin-top: 6px;
-  font-size: 18px;
-  fong-size: 15px;
+  margin-bottom: 16px;
+  font-size: 15px;
   color: #dbeafe;
   line-height: 1.5;
   max-width: 520px;
