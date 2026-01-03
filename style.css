@@ -550,6 +550,11 @@ footer {
   text-decoration: underline;
 }
 
+/* More project description spacing */
+.more-project-card p {
+  margin-bottom: 22px;   /* ✅ More → နဲ့ အကွာ */
+}
+
 
 
 /* ================= CV PAGE ================= */
