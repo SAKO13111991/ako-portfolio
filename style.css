@@ -639,10 +639,11 @@ footer {
 
 /* Year */
 .exp-year {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
-  color: #2f5bea;
-  margin-bottom: 4px;
+  color: #666;
+  letter-spacing: 0.3px;
+  margin-bottom: 6px;
 }
 
 /* Role */
