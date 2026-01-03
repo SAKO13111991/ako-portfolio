@@ -443,8 +443,6 @@ footer {
 /* ================= PROJECTS PAGE ================= */
 
 
-/* ================= PROJECTS PAGE ================= */
-
 .project-card {
   background: #ffffff;
   padding: 28px 26px 32px;
@@ -520,6 +518,13 @@ footer {
   .project-card img {
     height: 180px;
     margin-top: -12px;
+  }
+}
+
+/* ================= DESKTOP ONLY FIX ================= */
+@media (min-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr); /* ✅ PC = 3 columns only */
   }
 }
 
