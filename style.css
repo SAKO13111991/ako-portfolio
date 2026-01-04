@@ -795,3 +795,13 @@ footer {
   gap: 10px;
 }
 
+/* ============== CONTACT CARD SPACING (OPTION A) ============== */
+
+.contact-card {
+  padding: 40px 30px;
+}
+
+.contact-list {
+  margin-top: 25px;
+}
+
