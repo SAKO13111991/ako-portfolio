@@ -708,6 +708,13 @@ footer {
   }
 }
 
+/* Social icons spacing */
+.social-icons {
+  margin-top: 14px;   /* 🔑 ဒီတန်ဖိုးနဲ့ အောက်ကိုချ */
+  display: flex;
+  gap: 12px;
+}
+
 /* ================= CONTACT PAGE ================= */
 
 .contact-grid {
