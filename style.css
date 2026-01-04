@@ -559,8 +559,6 @@ footer {
 
 /* ================= CV PAGE ================= */
 
-/* ================= CV PAGE ================= */
-
 .cv-card {
   max-width: 900px;
   margin: auto;
@@ -616,7 +614,7 @@ footer {
 .exp-summary {
   display: grid;
   grid-template-columns: 140px 1fr auto 72px;
-  align-items: center;
+  align-items: flex-start;
   gap: 16px;
 }
 
@@ -638,6 +636,7 @@ footer {
 .exp-company {
   font-size: 14px;
   color: #555;
+  margin-bottom: 6px;
 }
 
 /* View More / Less */
