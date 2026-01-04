@@ -785,4 +785,13 @@ footer {
   }
 }
 
+/* ================= CONTACT INFO TEXT ================= */
+
+.contact-list li {
+  font-size: 20px;      /* ← ဒီမှာ size ကြီးချင်သလို ပြောင်း */
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
